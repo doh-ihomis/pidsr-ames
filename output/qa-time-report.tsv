@@ -1,5 +1,5 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit.json	6464	-	0	0	0	0	0	0	6	1578	0	0	0	0	0	0	0	1	0	0	399	481	0	0	0	6	0	3
-fsh-generated/resources/StructureDefinition-AMESEncounter.json	1118	138	0	0	0	0	0	5362	0	5400	0	0	1	0	0	1	0	2	0	0	1238	5863	0	0	0	18	3	3
-fsh-generated/resources/StructureDefinition-AMESObservation.json	1789	261	0	0	0	0	0	4487	0	4211	0	0	0	0	0	0	0	2	0	0	1279	3783	0	0	0	20	1	5
-fsh-generated/resources/StructureDefinition-AMESPatient.json	1400	270	0	0	0	0	0	4447	0	3641	0	0	0	0	0	0	0	1	0	0	943	3164	0	0	0	20	0	1
+\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit.json	6464	-	0	0	0	0	0	0	10	2048	0	0	0	0	0	0	0	1	0	0	381	373	0	0	0	0	0	1
+fsh-generated/resources/StructureDefinition-AMESEncounter.json	1118	137	0	0	0	1	0	4853	0	5845	0	0	1	0	0	0	0	4	0	0	1204	4085	0	0	0	20	0	1
+fsh-generated/resources/StructureDefinition-AMESObservation.json	1789	219	0	0	0	0	0	4038	0	4581	0	0	0	0	0	0	0	2	0	0	1419	3440	0	0	0	15	0	2
+fsh-generated/resources/StructureDefinition-AMESPatient.json	1400	336	0	0	0	0	0	4118	0	3380	0	0	0	0	0	0	0	1	0	0	977	1770	0	0	0	10	0	0

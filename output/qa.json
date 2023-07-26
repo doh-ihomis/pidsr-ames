@@ -3,7 +3,7 @@
   "name" : "smartigstarterkit",
   "package-id" : "fhir.who.smart-ig-starter-kit",
   "ig-ver" : "0.2.1",
-  "date" : "Wed, 26 Jul, 2023 15:22:22 +0800",
+  "date" : "Wed, 26 Jul, 2023 15:51:24 +0800",
   "errs" : 6,
   "warnings" : 7,
   "hints" : 0,

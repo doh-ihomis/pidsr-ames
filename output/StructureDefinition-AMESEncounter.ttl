@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.2.1"] ; # 
   fhir:name [ fhir:v "AMESEncounter"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-26T15:22:22+08:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-26T15:51:24+08:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "WHO"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "WHO" ] ;

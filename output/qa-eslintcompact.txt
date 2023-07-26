@@ -11,4 +11,4 @@ smartigstarterkit : Validation Results
 
 err = 6, warn = 7, info = 0
 IG Publisher Version: 1.3.24
-Generated Wed Jul 26 15:24:36 CST 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)
+Generated Wed Jul 26 15:53:07 CST 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)
