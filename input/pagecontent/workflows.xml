@@ -1,5 +1,32 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 
+  <h3>Epidemic Surveillance Systems Framework</h3>
+  <p>Involving the Public Health Surveillance Division of the EB</p>
+  <figure>
+    <img style="width:100%" src="framework.JPG" alt="Epidemic Surveillance Systems Framework" />
+  </figure>
 
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <h3>Client Process Flow</h3>
+  <p></p>
+  <figure>
+    <img style="width:100%" src="PIDSR workflow.jpg" alt="Client Process FLow" />
+  </figure>
+  <p></p>
+  <p></p>
+
+  <ol>
+    <li>Client visits the facility</li>
+    <li>Log client enocunter</li>
+    <li>Test patient</li>
+    <li>Register client in PIDSR AMES Masterlist.</li>
+  </ol>
+
+  <p></p>
+  <p></p>
+  <p></p>
 </div>

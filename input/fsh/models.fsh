@@ -1,13 +1,18 @@
-Logical: AMESCIF
-Title: "AMES"
-Description: "AMES Logical Model"
+Logical: AMESPatient
+Title: "Patient"
+Description: "Patient Logical Model"
 
-* Location.name string 0..1 "Name"
-* Location.address Address 0..1 "Address"
-* Location.telecom ContactPoint 0..* "Contact Number"
-* Patient.name HumanName.family 0..* "Patient's Last Name"
-* Patient.name HumanName.given 0..* "Patient's First Name"
-* Patient.name HumanName.given 0..* "Patient's Middle Name"
-* Patient.gender code 0..1 "Patient's Sex"
-* Patient.birthDate date 0..1 "Patient's Date of Birth"
-* Observation.code CodableConcept 1..1 "Sign and Symptoms - Fever"
+* LastName 1..1 HumanName.family "Patient's Last Name"
+* MiddleName 1..1 HumanName.given "Patient's Middle Name"
+* PatientGender 1..1 code "Patient's Sex"
+* PatientBirthDate 1..1 date "Patient's Date of Birth"
+
+Logical: AMESEncounter
+Title: "Encounter"
+Description: "Encounter Logical Model"
+
+* FacilityName 1..1 Encounter.serviceProvicer "Facility Name"
+
+Logical: AMESObservation
+Title: "Observation"
+Description: "Observation Logical Model"
