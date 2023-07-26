@@ -1,5 +1,26 @@
 [
   {
+    "id" : "AMESEncounter",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/StructureDefinition/AMESEncounter",
+    "version" : "0.2.1",
+    "name" : "AMESEncounter"
+  },
+  {
+    "id" : "AMESObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/StructureDefinition/AMESObservation",
+    "version" : "0.2.1",
+    "name" : "AMESObservation"
+  },
+  {
+    "id" : "AMESPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/StructureDefinition/AMESPatient",
+    "version" : "0.2.1",
+    "name" : "AMESPatient"
+  },
+  {
     "id" : "fhir.who.smart-ig-starter-kit",
     "type" : "ImplementationGuide",
     "url" : "http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit",

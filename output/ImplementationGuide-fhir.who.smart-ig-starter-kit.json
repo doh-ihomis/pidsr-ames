@@ -3,12 +3,12 @@
   "id" : "fhir.who.smart-ig-starter-kit",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>smartigstarterkit</h2><p>The official URL for this implementation guide is: </p><pre>http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit</pre><div><p>SMART Guidlines Implemenation Guide Template</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>smartigstarterkit</h2><p>The official URL for this implementation guide is: </p><pre>http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit</pre><div><p>PIDSR: Acute Meningitis Encephalitis Syndrome IG</p>\n</div></div>"
   },
   "url" : "http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit",
   "version" : "0.2.1",
   "name" : "smartigstarterkit",
-  "title" : "WHO SMART Guideline: IG Template",
+  "title" : "PIDSR: Acute Meningitis Encephalitis Syndrome IG",
   "status" : "draft",
   "date" : "2021-06-03",
   "publisher" : "WHO",
@@ -19,7 +19,7 @@
       "value" : "http://who.int"
     }]
   }],
-  "description" : "SMART Guidlines Implemenation Guide Template",
+  "description" : "PIDSR: Acute Meningitis Encephalitis Syndrome IG",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -581,6 +581,39 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/AMESEncounter"
+      },
+      "name" : "AMESEncounter",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/AMESObservation"
+      },
+      "name" : "AMESObservation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/AMESPatient"
+      },
+      "name" : "AMESPatient",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

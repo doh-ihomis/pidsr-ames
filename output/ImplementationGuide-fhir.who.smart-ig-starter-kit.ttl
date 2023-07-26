@@ -10,12 +10,12 @@
   fhir:id [ fhir:v "fhir.who.smart-ig-starter-kit"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>smartigstarterkit</h2><p>The official URL for this implementation guide is: </p><pre>http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit</pre><div><p>SMART Guidlines Implemenation Guide Template</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>smartigstarterkit</h2><p>The official URL for this implementation guide is: </p><pre>http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit</pre><div><p>PIDSR: Acute Meningitis Encephalitis Syndrome IG</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.1"] ; # 
   fhir:name [ fhir:v "smartigstarterkit"] ; # 
-  fhir:title [ fhir:v "WHO SMART Guideline: IG Template"] ; # 
+  fhir:title [ fhir:v "PIDSR: Acute Meningitis Encephalitis Syndrome IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2021-06-03"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "WHO"] ; # 
@@ -26,7 +26,7 @@
        fhir:value [ fhir:v "http://who.int" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "SMART Guidlines Implemenation Guide Template"] ; # 
+  fhir:description [ fhir:v "PIDSR: Acute Meningitis Encephalitis Syndrome IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
@@ -497,6 +497,40 @@
          fhir:value [ fhir:v "true" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESEncounter> ;
+         fhir:reference [ fhir:v "StructureDefinition/AMESEncounter" ]
+       ] ;
+       fhir:name [ fhir:v "AMESEncounter" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESObservation> ;
+         fhir:reference [ fhir:v "StructureDefinition/AMESObservation" ]
+       ] ;
+       fhir:name [ fhir:v "AMESObservation" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESPatient> ;
+         fhir:reference [ fhir:v "StructureDefinition/AMESPatient" ]
+       ] ;
+       fhir:name [ fhir:v "AMESPatient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

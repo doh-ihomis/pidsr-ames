@@ -1,16 +1,22 @@
 ﻿smartigstarterkit : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 6, warn = 7, info = 0
 IG Publisher Version: 1.3.24
-Generated Tue Jul 25 22:00:38 CST 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)
- Build Errors : 6 / 3 / 0
- C:\laragon\www\pidsr-ames\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit : 1 / 1 / 1
+Generated Wed Jul 26 15:24:36 CST 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)
+ Build Errors : 6 / 6 / 0
+ C:\laragon\www\pidsr-ames\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit : 0 / 1 / 1
+ C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESEncounter : 2 / 1 / 1
+ C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESObservation : 2 / 1 / 1
+ C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESPatient : 2 / 1 / 1
 </table>
 == n/a ==
-ERROR: C:\laragon\www\pidsr-ames\output\checklist.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 291, column 38: The link 'artifacts.html#structures-logical-models' for "Indices.Artifacts Summary.Structures:Logical Models" cannot be resolved (valid targets: [ig-status, artifacts-summary, segment-header, top, publish-box, bottom, stripe, segment-footer, segment-post-footer, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: C:\laragon\www\pidsr-ames\output\downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 144, column 7: The link 'ao2021-0057.pdf' for "PDF" cannot be resolved
-ERROR: C:\laragon\www\pidsr-ames\output\downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 148, column 7: The link 'AMES_CIF.pdf' for "PDF" cannot be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/AMESEncounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/AMESObservation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/AMESPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\laragon\www\pidsr-ames\output\checklist.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 291, column 38: The link 'artifacts.html#structures-logical-models' for "Indices.Artifacts Summary.Structures:Logical Models" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, structures-resource-profiles, ig-status, artifacts-summary, 1, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: C:\laragon\www\pidsr-ames\output\downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 7: The link 'ao2021-0057.pdf' for "PDF" cannot be resolved
+ERROR: C:\laragon\www\pidsr-ames\output\downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 152, column 7: The link 'AMES_CIF.pdf' for "PDF" cannot be resolved
 ERROR: C:\laragon\www\pidsr-ames\output\instructions.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 235, column 42: The link '#checklist' for "Smart Guidelines IG checklist" cannot be resolved (valid targets: [instructions, publish-box, segment-post-footer, new-smart, adaptation, creating-a-new-github-repository, top, scope, country-adaptation-of-an-existing-guide, stripe, segment-footer, creating-a-new-who-smart-guidline, segment-content, generation, github, generating-an-implmentation-guide, segment-header, bottom, directory-structure, ig-status, 1, modify, 2, 3, 4, modifying-the-template-repository, directory-layout-for-content, segment-navbar, segment-breadcrumb])
 ERROR: C:\laragon\www\pidsr-ames\output\instructions.html#/html/body/div/div/div/div/div/div/ul/li/dl/dd/a at Line 239, column 13: The link 'hl7.org/fhir/uv/shorthand/' for "FHIR Shorthand" cannot be resolved
 ERROR: C:\laragon\www\pidsr-ames\output\instructions.html#/html/body/div/div/div/div/div/div/ul/li/dl/dd/a at Line 251, column 68: The link '#checklist' for "Smart Guidelines IG checklist" cannot be resolved (valid targets: [instructions, publish-box, segment-post-footer, new-smart, adaptation, creating-a-new-github-repository, top, scope, country-adaptation-of-an-existing-guide, stripe, segment-footer, creating-a-new-who-smart-guidline, segment-content, generation, github, generating-an-implmentation-guide, segment-header, bottom, directory-structure, ig-status, 1, modify, 2, 3, 4, modifying-the-template-repository, directory-layout-for-content, segment-navbar, segment-breadcrumb])
@@ -19,4 +25,12 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit.json ==
 WARNING: ImplementationGuide/fhir.who.smart-ig-starter-kit: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: ImplementationGuide/fhir.who.smart-ig-starter-kit: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+== fsh-generated\resources\StructureDefinition-AMESEncounter.json ==
+ERROR: StructureDefinition.where(url = 'http://example.org/fhir/StructureDefinition/AMESEncounter'): Conformance resource C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESEncounter.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESEncounter) does not match the URL (http://example.org/fhir/StructureDefinition/AMESEncounter)
+ERROR: C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESEncounter: URL Mismatch http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESEncounter vs http://example.org/fhir/StructureDefinition/AMESEncounter
+== fsh-generated\resources\StructureDefinition-AMESObservation.json ==
+ERROR: StructureDefinition.where(url = 'http://example.org/fhir/StructureDefinition/AMESObservation'): Conformance resource C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESObservation.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESObservation) does not match the URL (http://example.org/fhir/StructureDefinition/AMESObservation)
+ERROR: C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESObservation: URL Mismatch http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESObservation vs http://example.org/fhir/StructureDefinition/AMESObservation
+== fsh-generated\resources\StructureDefinition-AMESPatient.json ==
+ERROR: StructureDefinition.where(url = 'http://example.org/fhir/StructureDefinition/AMESPatient'): Conformance resource C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESPatient.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESPatient) does not match the URL (http://example.org/fhir/StructureDefinition/AMESPatient)
+ERROR: C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESPatient: URL Mismatch http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESPatient vs http://example.org/fhir/StructureDefinition/AMESPatient

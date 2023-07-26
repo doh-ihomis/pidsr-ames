@@ -1,9 +1,14 @@
-﻿C:\laragon\www\pidsr-ames\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit.json: line 1, col 17999, Warning - Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed (INVARIANT)
-C:\laragon\www\pidsr-ames\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit.json: line 1, col 17998, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+﻿C:\laragon\www\pidsr-ames\fsh-generated\resources\ImplementationGuide-fhir.who.smart-ig-starter-kit.json: line 1, col 18774, Warning - Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed (INVARIANT)
+C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESEncounter.json: line 0, col 0, Error - Conformance resource C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESEncounter.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESEncounter) does not match the URL (http://example.org/fhir/StructureDefinition/AMESEncounter) (INVALID)
+C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESEncounter.json: line 0, col 0, Error - URL Mismatch http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESEncounter vs http://example.org/fhir/StructureDefinition/AMESEncounter (BUSINESSRULE)
+C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESObservation.json: line 0, col 0, Error - Conformance resource C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESObservation.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESObservation) does not match the URL (http://example.org/fhir/StructureDefinition/AMESObservation) (INVALID)
+C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESObservation.json: line 0, col 0, Error - URL Mismatch http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESObservation vs http://example.org/fhir/StructureDefinition/AMESObservation (BUSINESSRULE)
+C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESPatient.json: line 0, col 0, Error - Conformance resource C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESPatient.json - the canonical URL (http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESPatient) does not match the URL (http://example.org/fhir/StructureDefinition/AMESPatient) (INVALID)
+C:\laragon\www\pidsr-ames\fsh-generated\resources\StructureDefinition-AMESPatient.json: line 0, col 0, Error - URL Mismatch http://worldhealthorganization.github.io/smart-ig-starter-kit/StructureDefinition/AMESPatient vs http://example.org/fhir/StructureDefinition/AMESPatient (BUSINESSRULE)
 
 smartigstarterkit : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 6, warn = 7, info = 0
 IG Publisher Version: 1.3.24
-Generated Tue Jul 25 22:00:38 CST 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)
+Generated Wed Jul 26 15:24:36 CST 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)

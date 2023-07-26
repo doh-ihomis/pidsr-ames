@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.who.smart-ig-starter-kit"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>smartigstarterkit</h2><p>The official URL for this implementation guide is: </p><pre>http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit</pre><div><p>SMART Guidlines Implemenation Guide Template</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>smartigstarterkit</h2><p>The official URL for this implementation guide is: </p><pre>http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit</pre><div><p>PIDSR: Acute Meningitis Encephalitis Syndrome IG</p>
 </div></div>
   </text>
   <url value="http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit"/>
   <version value="0.2.1"/>
   <name value="smartigstarterkit"/>
-  <title value="WHO SMART Guideline: IG Template"/>
+  <title value="PIDSR: Acute Meningitis Encephalitis Syndrome IG"/>
   <status value="draft"/>
   <date value="2021-06-03"/>
   <publisher value="WHO"/>
@@ -20,7 +20,7 @@
       <value value="http://who.int"/>
     </telecom>
   </contact>
-  <description value="SMART Guidlines Implemenation Guide Template"/>
+  <description value="PIDSR: Acute Meningitis Encephalitis Syndrome IG"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -434,6 +434,36 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AMESEncounter"/>
+      </reference>
+      <name value="AMESEncounter"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AMESObservation"/>
+      </reference>
+      <name value="AMESObservation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AMESPatient"/>
+      </reference>
+      <name value="AMESPatient"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
