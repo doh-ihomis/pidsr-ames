@@ -1,20 +1,60 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 
 
-  <p>
-    A GitHub template repository for creating HL7 FHIR Implementation Guides following the WHO SMART Guidlines approach.  A FHIR implementation guide is in the L3 content layer
-  </p>
-  <figure>
-    
-    <img style="width:70%" src="smart-guidelines.png" alt="SMART guidlines graphic"/>
-    <figcaption>WHO SMART Guidlines </figcaption>
-  </figure>
-  
-  <p>
+  <h4>I. RATIONALE</h4>
+  <div>
+    <p>The Philippine Integrated Disease Surveillance and Response (PIDSR) of the Epidemiology
+      Bureau
+      (EB) is an integrated approach for strengthening the Philippine epidemiologic surveillance and
+      response system. It was established in 2007 following the International Health Regulations
+      (THR)
+      call for a stronger surveillance system.</p>
 
-    More information abuot the knowledge layers can be found in: <a href="https://pubmed.ncbi.nlm.nih.gov/22052898/">Knowledge Levels with Examples (Michaels, U.S. Centers for Disease Control and Prevention</a>
-  </p>
+    <p>The Public Health Surveillance Division (PHSD) of EB supports the Republic Act (RA) No. 11223
+      “Universal Health Care (UHC) Act” and RA No. 11332 "Mandatory Reporting of Notifiable Diseases
+      and Health Events of Public Health Concern Act" thus, PIDSR is hereby enhanced to integrate
+      Epidemic-prone Disease Case Surveillance (EDCS) and Event-based Surveillance and Response
+      (ESR)
+      surveillance activities and response at all level of Epidemiology and Surveillance Units
+      (ESUs).
+      The province-wide and city-wide health systems for the delivery of population-based health
+      services need to establish accurate, sensitive, and timely epidemiologic disease surveillance
+      systems as stipulated in Chapter IV, Section 17 of the UHC Act. Moreover, the enhancement of
+      PIDSR is in compliance with the World Health Organization (WHO) recommendations on its
+      external
+      assessment of the surveillance system in 2019</p>
 
+    <p>As part of the enhancement, EDCS and ESR shall be under the PIDSR as indicated in Rule V,
+      Section 1 and Rule VIII, Section 1 of the 2020 Revised Implementing Rules and Regulations
+      (IRR)
+      of RA 11332, as the early warning system for epidemics. The EDCS includes surveillance of
+      epidemic-prone diseases from the sentinel sites (AO No. 2018-0023 "Guidelines in Strengthening
+      the Capacity of Public Health Units of DOH Hospitals and All Level Three Hospitals (Government
+      and Private) on Sentinel Surveillance System for Notifiable Diseases of Epidemic Potential")
+      and
+      non-sentinel sites, while ESR shall capture other health events of public health concerns and
+      provides information for International Health Regulations (IHR) notification.</p>
 
-  
+    <p></p>
+    <p></p>
+  </div>
+  <h4>II. OBJECTIVES</h4>
+  <div>
+    <p>This Order aims to provide an enhanced PIDSR to guide its implementation at all levels of the
+      health care delivery system in both the public and private sectors.</p>
+
+    <p></p>
+    <p></p>
+  </div>
+  <h4>III. SCOPE OF APPLICATION</h4>
+  <div>
+    <p>This Order shall apply to DOH Central Office bureaus and units, DOH Centers for Health
+      Development (CHDs), DOH Hospitals including the Bangsamoro Autonomous Region in Muslim
+      Mindanao
+      (BARMM) subject to the applicable provisions of RA 11054 or the “Bangsamoro Organic Act”, and
+      shall cover all levels surveillance and response activities.</p>
+    <p></p>
+    <p></p>
+  </div>
 </div>
